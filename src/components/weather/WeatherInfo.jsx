@@ -23,7 +23,7 @@ const WeatherInfo = ({ city, weather }) => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         className="flex items-center justify-center gap-3 
-                         text-white font-semibold text-xl"
+      text-white font-semibold text-xl"
       >
         <FaWind size={22} className="opacity-90" />
         {weather.windspeed} km/h

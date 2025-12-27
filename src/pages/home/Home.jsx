@@ -7,7 +7,7 @@ const Home = ({ title = "Aurora Weather" }) => {
       variants={container}
       initial="hidden"
       animate="show"
-      className="w-full min-h-screen flex flex-col items-center justify-center gap-6 p-6"
+      className="w-full min-h-screen flex flex-col items-center justify-center gap-2 p-6"
     >
       <motion.h1
         variants={titleVariant}
@@ -15,6 +15,14 @@ const Home = ({ title = "Aurora Weather" }) => {
       >
         {title}
       </motion.h1>
+      <motion.p
+        variants={titleVariant}
+        className="text-emerald-100 text-sm sm:text-base text-center max-w-md"
+      >
+        Search the current weather by city name. Type a city and get real-time
+        weather information instantly.
+      </motion.p>
+
       <motion.div
         variants={weatherVariant}
         className="w-full flex justify-center"

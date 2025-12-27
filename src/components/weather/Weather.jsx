@@ -18,9 +18,9 @@ const Weather = () => {
   return (
     <div
       className="min-w-full sm:min-w-[420px] max-w-md mx-auto 
-                 min-h-[72vh] flex flex-col gap-6 
-                 p-6 bg-white/20 backdrop-blur-md 
-                 rounded-3xl shadow-lg transition-all"
+      min-h-[65vh] flex flex-col gap-6 
+      p-6 bg-white/20 backdrop-blur-md 
+      rounded-3xl shadow-lg transition-all"
     >
       <WeatherSearch
         searchText={searchText}

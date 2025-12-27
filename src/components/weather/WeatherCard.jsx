@@ -11,8 +11,8 @@ const WeatherCard = ({ weather, imgSrc, city }) => {
         exit={{ opacity: 0, y: 15, scale: 0.95 }}
         transition={{ duration: 0.3 }}
         className="flex flex-col items-center justify-center gap-4 
-                       p-6 rounded-2xl w-full bg-white/10 backdrop-blur-xl 
-                       shadow-inner text-center"
+        p-6 rounded-2xl w-full bg-white/10 backdrop-blur-xl 
+        shadow-inner text-center"
       >
         <WeatherImg imgSrc={imgSrc} />
         <WeatherInfo city={city} weather={weather} />
